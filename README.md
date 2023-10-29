@@ -6,7 +6,7 @@ Deep learning project 2023, DTU.
 ## Project name: Segmenting car parts using internal dataset
 
 ## Motivation and background:
-Image segmentation is a very interesting and relevant part of computer vision, it can be used in a variety of fields. In this case, the long-term goal is to help insurance companies process damage claims.
+Image segmentation is a very interesting and relevant part of computer vision, it can be used in a variety of fields. The end model will be segmenting parts of the car, marking each relevant piece with its own colored filter. In this case, the long-term goal is to help insurance companies process damage claims.
 
 ## Goals and plans:
 We will be using one of the sub-datasets provided to us by our project supervisor, this will probably be the black 5-door one, as it is pretty clean and the neural network should have a good time training on it.

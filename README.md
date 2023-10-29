@@ -17,3 +17,4 @@ We will start by analyzing relevant architectures, U-net being the best candidat
  - Semantic Shapes segmentation (Seth Adams): [Github Link](https://github.com/seth814/Semantic-Shapes)
  - Brain Tumor Segmentation using UNET (Idiot Programmer): [Github Link](https://github.com/nikhilroxtomar/Brain-Tumor-Segmentation-in-TensorFlow-2.0)
  - Image Segmentation Videos (Computer Vision Engineer): [Youtube Video Link](https://www.youtube.com/watch?v=aVKGjzAUHz0)
+ - Further Reading: [https://paperswithcode.com/task/image-segmentation](https://paperswithcode.com/task/image-segmentation)

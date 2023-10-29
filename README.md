@@ -1,2 +1,19 @@
-# DTU_Deep_Learning_Image_Segmentation_Project
+# Segmenting car parts using internal dataset - DTU_Deep_Learning_Image_Segmentation_Project
 Deep learning project 2023, DTU.
+
+# Project synopsis
+
+## Project name: Segmenting car parts using internal dataset
+
+## Motivation and background:
+Image segmentation is a very interesting and relevant part of computer vision, it can be used in a variety of fields. In this case, the long-term goal is to help insurance companies process damage claims.
+
+## Goals and plans:
+We will be using one of the sub-datasets provided to us by our project supervisor, this will probably be the black 5-door one, as it is pretty clean and the neural network should have a good time training on it.
+
+We will start by analyzing relevant architectures, U-net being the best candidate so far. Once the initial architecture is selected and constructed, we can start preprocessing the images, using the non-segmented images as inputs, and the segmented images as outputs. As the data is big enough, we don't have to worry about the initial train-validation-test split too much, so we will start around a 70-15-15 split. Once the first training is done we can tweak the model using hyperparameter optimization techniques, and further optimize the structure of the net. We will be observing different metrics in the testing phase, aiming for an average accuracy of 80%. Further goals would be to use transfer learning on the other available dataset and increase the overall accuracy of the model, on totally new data points.
+
+## References:
+ - Semantic Shapes segmentation (Seth Adams): [Github Link](https://github.com/seth814/Semantic-Shapes)
+ - Brain Tumor Segmentation using UNET (Idiot Programmer): [Github Link](https://github.com/nikhilroxtomar/Brain-Tumor-Segmentation-in-TensorFlow-2.0)
+ - Image Segmentation Videos (Computer Vision Engineer): [Youtube Video Link](https://www.youtube.com/watch?v=aVKGjzAUHz0)

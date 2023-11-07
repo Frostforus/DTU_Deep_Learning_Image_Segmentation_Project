@@ -1,4 +1,7 @@
+import colorsys
+
 import numpy as np
+from matplotlib import pyplot as plt
 
 print("hello worls")
 
@@ -32,20 +35,42 @@ color_to_hue = {
     "light green": 150,
     "blue": 210,
     "pink": 330,
-    #TODO: change this to black later
+    # TODO: change this to black later
     "no color": 0,
     "white": 1,
 }
 
-#, row[1] this can be put into the thing too
-value_mapping = {row[2]: color_to_hue.get(row[0], row[0]) for row in data}
+# , row[1] this can be put into the thing too
+hue_mapping = {row[2]: color_to_hue.get(row[0], row[0]) for row in data}
 
+# Map the hue values using the dictionary
+hue_values = np.vectorize(hue_mapping.get)(array[..., -1])
 
-# Map the values in the last channel using the dictionary
-y = np.vectorize(value_mapping.get)(array[..., -1])
+# Convert hue values to RGB values
+y = np.empty_like(array[..., :3], dtype=np.uint8)
+for i in range(256):
+    for j in range(256):
+        if hue_values[i, j] in (0, 1):
+            y[i, j] = (x[i, j, 0], x[i, j, 1], x[i, j, 2])
+        else:
+            hsv_color = (hue_values[i, j] / 360.0, 1, 1)  # Convert hue to HSV format
+            rgb_color = colorsys.hsv_to_rgb(*hsv_color)  # Convert to RGB
+            y[i, j] = (int(rgb_color[0] * 255), int(rgb_color[1] * 255), int(rgb_color[2] * 255))
 
-# Expand the last dimension of y to have shape (256, 256, 3)
-y = np.expand_dims(y, axis=-1)
 # Print the shapes of x and y
 print("Shape of x:", x.shape)
 print("Shape of y:", y.shape)
+
+
+def show_image(image):
+    # Extract the image data from the last channel (the alpha channel, for example)
+    image_data = image[:, :]
+
+    # Display the image using Matplotlib
+    plt.imshow(image_data)  # Use 'gray' colormap for grayscale images
+    plt.axis('off')  # Turn off the axis labels and ticks
+    plt.show()
+
+
+show_image(x)
+show_image(y)

@@ -5,7 +5,7 @@ Deep learning project 2023, DTU.
 The final project files are in the master branch
 
 ## Project code
-The project code can be found in Master_Final_NoteBook.ipynb. Be aware that this notebook only contains the cleaned, readable version of our work, thus this file does not contain the results of the specific section. Instead, we include the links of the separate notebooks that have the results for each part of the code. These links can also be reached from here:
+The project code can be found in Master_Final_NoteBook_final.ipynb. Be aware that this notebook only contains the cleaned, readable version of our work, thus this file does not contain the results of the specific section. Instead, we include the links of the separate notebooks that have the results for each part of the code. These links can also be reached from here:
 
  - Enhanced labeling of real photos: [GitHub Link](https://github.com/Frostforus/DTU_Deep_Learning_Image_Segmentation_Project/blob/farkas/process_real_imageset.ipynb)
  - Data Augmentation: [Colab Link](https://colab.research.google.com/drive/1fslwnPv_Lq_hmmiZrmQg6VYrtTGMAyCM?usp=sharing)
@@ -16,6 +16,14 @@ The project code can be found in Master_Final_NoteBook.ipynb. Be aware that this
 ## Project data
 
 The training and testing datasets that were used are confidential and cannot be shared with the public. Thus, we did not upload it to this repository. If it is needed, we can send the dataset via email.
+
+## Saved model
+
+The saved model of the final training: saved_model.keras
+
+## Poster
+
+The poster from the presentation: DL_poster.pdf
 
 # Project synopsis
 

@@ -2,6 +2,7 @@
 Deep learning project 2023, DTU.
 
 # Project description
+The final project files are in the master branch
 
 ## Project code
 The project code can be found in Master_Final_NoteBook.ipynb. Be aware that this notebook only contains the cleaned, readable version of our work, thus this file does not contain the results of the specific section. Instead, we include the links of the separate notebooks that have the results for each part of the code. These links can also be reached from here:

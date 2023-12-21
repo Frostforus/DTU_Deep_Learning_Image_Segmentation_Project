@@ -7,7 +7,7 @@ Deep learning project 2023, DTU.
 The project code can be found in Master_Final_NoteBook.ipynb. Be aware that this notebook only contains the cleaned, readable version of our work, thus this file does not contain the results of the specific section. Instead, we include the links of the separate notebooks that have the results for each part of the code. These links can also be reached from here:
 
  - Enhanced labeling of real photos:
- - Data Augmentation: [Colab Link](https://colab.research.google.com/drive/1fslwnPv_Lq_hmmiZrmQg6VYrtTGMAyCM#scrollTo=NN9GT7dz4iYG)
+ - Data Augmentation: [Colab Link](https://colab.research.google.com/drive/1fslwnPv_Lq_hmmiZrmQg6VYrtTGMAyCM?usp=sharing)
  - Adding background images to CAD images: [Colab Link](https://colab.research.google.com/drive/1EDB2RnDnX4fKyJiQDGjDHAg4gL0Xmnlj?usp=sharing)
  - Hyperparameter optimization: [Colab Link](https://colab.research.google.com/drive/1Bnk7cO6686d2v3Ph995R3QLQyAkDe2a0?usp=sharing)
  - Model training and results:[Colab Link](https://colab.research.google.com/drive/1tyVwgMh-6IZ4REJ_7dydBFzHy22eCt_0?usp=sharing)

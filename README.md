@@ -8,7 +8,7 @@ The project code can be found in Master_Final_NoteBook.ipynb. Be aware that this
 
  - Enhanced labeling of real photos:
  - Data Augmentation: [Colab Link](https://colab.research.google.com/drive/1fslwnPv_Lq_hmmiZrmQg6VYrtTGMAyCM#scrollTo=NN9GT7dz4iYG)
- - Adding background images to CAD images: [Colab Link Link](https://colab.research.google.com/drive/1EDB2RnDnX4fKyJiQDGjDHAg4gL0Xmnlj?usp=sharing)
+ - Adding background images to CAD images: [Colab Link](https://colab.research.google.com/drive/1EDB2RnDnX4fKyJiQDGjDHAg4gL0Xmnlj?usp=sharing)
  - Model training and results:
 
 

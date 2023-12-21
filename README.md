@@ -12,6 +12,9 @@ The project code can be found in Master_Final_NoteBook.ipynb. Be aware that this
  - Hyperparameter optimization: [Colab Link](https://colab.research.google.com/drive/1Bnk7cO6686d2v3Ph995R3QLQyAkDe2a0?usp=sharing)
  - Model training and results:[Colab Link](https://colab.research.google.com/drive/1tyVwgMh-6IZ4REJ_7dydBFzHy22eCt_0?usp=sharing)
 
+## Project data
+
+The training and testing dataset that were used cannot be shared on public. Thus, we did not upload it to this repository. If it is needed, we can send the dataset via email.
 
 # Project synopsis
 

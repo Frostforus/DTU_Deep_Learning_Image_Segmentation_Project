@@ -14,7 +14,7 @@ The project code can be found in Master_Final_NoteBook.ipynb. Be aware that this
 
 ## Project data
 
-The training and testing dataset that were used cannot be shared on public. Thus, we did not upload it to this repository. If it is needed, we can send the dataset via email.
+The training and testing datasets that were used are confidential and cannot be shared with the public. Thus, we did not upload it to this repository. If it is needed, we can send the dataset via email.
 
 # Project synopsis
 
